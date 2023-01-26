@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container5 {
+	border: 1px solid black;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+	background-image: url('https://t4.ftcdn.net/jpg/00/93/36/49/360_F_93364974_eoos8QGsa9CzTa5hGRRL6EutXMSKgdOA.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.flex-blackjack-row-1 div {
+	border: 1px solid rgb(245, 241, 45);
+	padding: 10px;
+	min-height: 350px;
+	flex: 1;
+}
+
+.flex-blackjack-row-1 img {
+	width: 25%;
+	padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+	padding: 0.8rem;
+	border: none;
+	margin: 0.6rem;
+	border-radius: 5px;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.flex-blackjack-row-2 div {
+	border: 1px solid black;
+}
+.btn-primary {
+	background-color: #4639ff;
+}
+
+.btn-warning {
+	background-color: rgb(209, 209, 33);
+	color: black;
+}
+
+.btn-danger {
+	background-color: red;
+}
+
+table,
+td,
+th {
+	padding: 5px;
+	border: 1px solid black;
+	margin: 0;
+	border-collapse: collapse;
+}
